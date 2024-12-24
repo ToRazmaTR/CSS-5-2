@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.headercontainer {
+   display: flex;
+   justify-content: center;
+   
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    max-width: 1440px;
+    width: 100%;
+    border-bottom: 1px solid #261C51;
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    
+}
+
+
+.headercontainer p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.cloudodiv {
+    display: inline-flex;
+    justify-content: center;    
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.menudiv {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.menudiv p:first-child {
+    color: #8CE900;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    background-color: black;
+}
+
+.firstdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1040px;
+    width: 100%;
+    margin-top: 64px;
+}
+
+
+
+h1 {
+    color: #fff;
+    max-width: 583px;
+    width: 100%;
+}
+
+.cardscontainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1040px;
+    width: 100%;
+    align-items: center; 
+    background: #242642; 
+    margin-top: 64px;
+}
+
+.cards {
+    max-width: 162;
+}
+
+.cards p:last-child {
+    color: #C0C0C0;
+    font-size: 20px;
+}
+
+.cards p:first-child {
+    color: #8CE900;
+    font-size: 56px;
+} 
+
+.leftcontainer {
+    max-width: 264px;
+    width: 100%;
+}
+
+.leftcontainer .cloudodiv + p {
+    color: #C0C0C0;
+    font-size: 14px;
+}
+
+.lastcontainer p {
+    color: #fff;
+}
+
+.lastcontainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+.centercontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.centercontainer p:first-child {
+    color: #8CE900;
+    font-size: 16px;
+}
+
+.endcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.endcontainer p:first-child {
+    color: #8CE900;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
